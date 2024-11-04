@@ -11,8 +11,16 @@ public class Person {
     private double salary;
 
     public Person() {
-        this.name = getName();
-        this.age = getAge();
+        this.name = "Deepti";
+        this.age = 35;
+    }
+
+    public Person(int age,String name,double weight, double height,double salary) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.height = height;
+        this.salary = salary;
     }
 
     public Person(int age) {
